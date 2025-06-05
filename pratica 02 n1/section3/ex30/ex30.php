@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada</title>
+    <style>
+        .tabuada {
+            padding: 15px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <div style="background-color : green;">
+    <div class="tabuada" style="background-color : green;">
     <?php
         function tabuada($numero){
             echo "Tabuada $numero<br>";
@@ -19,27 +29,27 @@
     ?>
     </div>
 
-    <div style="background-color: blue;">
+    <div class="tabuada" style="background-color: blue;">
         <?php
-        tabuada(2)
+        tabuada(2);
         ?>
     </div>
 
-    <div style="background-color: yellow;">
+    <div class="tabuada" style="background-color: yellow;">
         <?php
-        tabuada(3)
+        tabuada(3);
         ?>
     </div>
 
-    <div style="background-color: purple;">
+    <div class="tabuada" style="background-color: purple;">
         <?php
-        tabuada(4)
+        tabuada(4);
         ?>
     </div>
 
-    <div style="background-color: brown;">
+    <div class="tabuada" style="background-color: brown;">
         <?php
-        tabuada(5)
+        tabuada(5);
         ?>
     </div>
     

@@ -6,14 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    include "header.php";
-    ?>
-    <?php
-    include "nav.php";
-    ?>
-    <?php
-    include "footer.php";
+    <h1>Exibiu um warning quando da um problema</h1>
+    <?php 
+    include "teste.php";
     ?>
 </body>
 </html>

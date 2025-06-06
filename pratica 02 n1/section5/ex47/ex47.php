@@ -7,13 +7,18 @@
 </head>
 <body>
     <?php
-    include "header.php";
+    require_once "bd.php";
     ?>
+    <h1>Host:<?php echo $host ?></h1>
+
     <?php
-    include "nav.php";
+    require_once "bd.php";
     ?>
-    <?php
-    include "footer.php";
+    <h1>Usuario:<?php echo $usuario ?></h1>
+
+        <?php
+    require_once "bd.php";
     ?>
+    <h1>Senha: <?php echo $senha ?></h1>
 </body>
 </html>

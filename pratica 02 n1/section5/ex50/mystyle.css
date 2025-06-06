@@ -1,0 +1,43 @@
+.header {
+    background-color: #364385;
+    font-family: ’Courier New’, Cou-
+rier, monospace,;
+ 
+ text-align: left;
+ padding: 5px;
+ text-decoration: none;
+ 
+}
+a:hover {    
+    background-color: rgba(0, 0,
+    0, 0.179) }
+    img{border-radius: 10%;}
+.inlineblock { display: inline-block;
+padding: 10px;}
+h1 {text-align: center; 
+    font-family: ’Segoe UI’, Tahoma,
+Geneva, Verdana, sans-serif;
+text-decoration: none;
+}
+p {font-family: ’Segoe UI’, Tahoma,
+
+    Geneva, Verdana, sans-serif}
+    .container 
+    {display: flex;
+    justify-content: center;
+    }
+    .child {
+        padding: 60px;
+        align-items: center;
+    }
+    .footer {background-color: #364385;
+        font-family: ’Courier New’, Cou-
+    rier, monospace,;
+     color: white;
+     text-align: center;}
+
+     
+     a{color: white;
+ text-decoration: none; 
+   
+}

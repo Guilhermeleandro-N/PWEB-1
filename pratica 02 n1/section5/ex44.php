@@ -1,3 +1,7 @@
+<?php
+$titulo = "Titulo definido antes do HTML";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-    include "header.php";
-    ?>
-    <?php
-    include "nav.php";
-    ?>
-    <?php
-    include "footer.php";
-    ?>
+    <header><h1><?php echo $titulo ?></h1>
 </body>
 </html>

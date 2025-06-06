@@ -1,0 +1,114 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.container {
+
+    max-width: 1024px;
+
+    margin: auto;
+}
+
+#spacebetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.absolute{position: absolute;}
+/*cabeçalho*/
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+li {color: black;
+    margin: 8px;
+    cursor: pointer;
+    opacity: 75%;
+    font-family: 'Mulish', sans-serif;
+    
+
+    
+}
+li:hover{ color: black;
+    font-weight: bold;
+opacity: none;
+font-family: 'Poppins', sans-serif;}
+
+#trafalgar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*conteudo*/
+#ilustrationsize
+{width: 600px;
+height: auto;
+position: ab;}
+/*serviços2*/
+
+.padding{padding-top: 9%;}
+.padding2{padding-top: 2.5%;}
+
+.serviços2 {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+#wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boxitens {
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: white;
+
+
+}
+
+#boximages {display: inline-flex;
+}
+#fd {
+    flex-direction: row;
+}
+
+#containerservice {
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+#text {
+    text-align: center;
+}
+
+#learnmoresize{
+    text-align: center;
+    width: 150px; ;
+height: auto;
+cursor: pointer;}
+#pointer{cursor: pointer;}
+
+
+h1,h2,h3,span{font-family: 'Poppins', sans-serif;}
+p{ font-family: 'Mulish', sans-serif;
+font-size: 85%;
+opacity: 75%;}
+span{font-weight: bold;
+font-size: 125%;}

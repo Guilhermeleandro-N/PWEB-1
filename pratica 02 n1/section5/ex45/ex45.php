@@ -1,3 +1,8 @@
+<?php 
+require_once "helpers.php";
+$nome = "Guilherme";
+$valor = 1741.22
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,13 +12,8 @@
 </head>
 <body>
     <?php
-    include "header.php";
-    ?>
-    <?php
-    include "nav.php";
-    ?>
-    <?php
-    include "footer.php";
+    saudacao($nome); 
+    echo "<br>O saldo de sua conta é ". formatado($valor);
     ?>
 </body>
 </html>

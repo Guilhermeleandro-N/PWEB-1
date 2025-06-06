@@ -1,0 +1,5 @@
+<?php
+
+$titulo = "Tecnologias WEB";
+
+$conteudo = "O desenvolvimento de front-end é um dos aspectos mais importantes da criação de aplicativos amigáveis ao usuário para aplicativos móveis e da web. Atualmente, existem muitas opções quando se trata de linguagens para desenvolvimento front-end, cada uma com suas vantagens e desvantagens. HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. CSS é a sigla para Cascading Style Sheets, ou seja, Folhas de Estilo em Cascatas. É uma maneira de dar estilo ao código criado por linguagens como HTML, XML ou XHTML, por exemplo. JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido.";

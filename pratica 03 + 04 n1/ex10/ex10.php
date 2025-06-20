@@ -1,10 +1,10 @@
 <?php
 if (isset($_POST['nomes']) && !empty($_POST['nomes'])){
-    $nomes = $_POST['nomes'];
+    $listaParticipantes = $_POST['nomes'];
     
-    $nomes = array_unique($nomes);
+    $listaParticipantes = array_unique($listaParticipantes);
     echo "Nomes sem repetição na lista:<br>";
-    foreach($nomes as $nome){
+    foreach($listaParticipantes as $nome){
         echo "- " . "$nome<br>";
     }
 }else{

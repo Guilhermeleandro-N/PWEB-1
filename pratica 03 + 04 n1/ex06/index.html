@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex06</title>
+</head>
+<body>
+    <h1>Informe 5 categorias de produtos</h1>
+
+    <form action="ex06.php" method="POST">
+        <label>Categoria 1:</label>
+        <input type="text" name="categorias[]" required><br><br>
+
+        <label>Categoria 2:</label>
+        <input type="text" name="categorias[]" required><br><br>
+
+        <label>Categoria 3:</label>
+        <input type="text" name="categorias[]" required><br><br>
+
+        <label>Categoria 4:</label>
+        <input type="text" name="categorias[]" required><br><br>
+
+        <label>Categoria 5:</label>
+        <input type="text" name="categorias[]" required><br><br>
+
+        <label>Ordem de exibição:</label><br>
+        <input type="radio" name="ordem" value="crescente" required> Ordem alfabética<br>
+        <input type="radio" name="ordem" value="decrescente" required> Ordem reversa<br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
